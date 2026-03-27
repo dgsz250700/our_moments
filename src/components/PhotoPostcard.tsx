@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fffcf5',
     borderRadius: 4,
     marginHorizontal: 16,
-    marginVertical: 12,
+    marginVertical: 10,
     elevation: 6,
     shadowColor: '#7a6450',
     shadowOffset: { width: 2, height: 4 },
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   photo: {
     width: '100%',
-    height: IS_DESKTOP ? 200 : 220,
+    height: IS_DESKTOP ? 280 : 260,
   },
   body: {
     paddingHorizontal: 16,

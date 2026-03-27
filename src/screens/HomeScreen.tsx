@@ -279,7 +279,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   leftColumn: {
-    width: IS_DESKTOP ? 300 : '100%',
+    width: IS_DESKTOP ? 380 : '100%',
     borderRightWidth: 1,
     borderRightColor: '#e8ddd0',
     backgroundColor: '#faf7f0',
@@ -290,6 +290,10 @@ const styles = StyleSheet.create({
   galleryContent: {
     paddingVertical: 12,
     paddingBottom: 100,
+    // Cap card width so they don't stretch on wide screens
+    maxWidth: 420,
+    alignSelf: 'center',
+    width: '100%',
   },
 
   // ── Mobile ──
